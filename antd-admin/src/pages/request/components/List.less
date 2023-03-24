@@ -1,0 +1,21 @@
+.table {
+  :global {
+    .ant-table td {
+      white-space: nowrap;
+    }
+  }
+
+}
+
+.input {
+  position: relative;
+
+  &::after {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    content: '⬇';
+    height: 20px;
+    width: 20px;
+  }
+}

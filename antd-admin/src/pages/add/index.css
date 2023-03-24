@@ -1,0 +1,11 @@
+.flex-line {
+  display: flex;
+}
+.flex-line label {
+  display: block;
+  text-align: start;
+  font-size: 15px;
+  font-weight: 600;
+  width: 100px;
+  color: #1777ff;
+}

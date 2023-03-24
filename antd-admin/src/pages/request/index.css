@@ -1,0 +1,9 @@
+.modal .input {
+  position: relative;
+}
+.modal .input ::after {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  content: '⬇';
+}
